@@ -10,6 +10,7 @@
     --icon-color: #716969;
     --light-gray-color: #f7f7f7;
     --primary-color: #4867e3;
+    --hover-bg-color: #f5f6fa;
 }
 
 body {
@@ -58,6 +59,12 @@ main {
     border-radius: 0.4rem;
     margin: 2rem;
     width: 25rem;
+}
+
+.flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .shadow {
@@ -113,7 +120,7 @@ main {
 }
 
 .link:hover {
-    background-color: #f5f6fa;
+    background-color: var(--hover-bg-color);
     border-radius: 5px;
 }
 
@@ -309,7 +316,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin: 1.5rem;
+    width: 80%;
 }
 
 .badge-btn {
@@ -362,10 +371,16 @@ main {
     cursor: pointer;
 }
 
-.alert-dialog {
+.dialog-box {
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 1.2rem;
     border-radius: 5px;
+    flex-basis: 15rem;
+    margin: 1rem;
+}
+
+.dialog-box > h3 {
+    padding-bottom: 1rem;
 }
 
 .alert-dialog p {
@@ -375,5 +390,40 @@ main {
 .dialog-footer {
     display: flex;
     flex-wrap: wrap;
+}
+
+.dialog-footer > h4:nth-child(1) {
     margin-left: auto;
+}
+
+.dialog-icon {
+    margin: 0.4rem 0;
+    padding: 0.4rem 0;
+}
+
+.dialog-icon:hover {
+    cursor: pointer;
+    background-color: var(--hover-bg-color);
+    border-radius: 5px;
+}
+
+.dialog-icon .bx {
+    padding-right: 1rem;
+}
+
+.radio-inputs {
+    display: flex;
+    flex-direction: column;  
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    overflow-y: scroll;
+    max-height: 10rem;  
+}
+
+.radio-inputs label {
+    padding: 0.8rem;
+}
+
+.radio-inputs input {
+    margin-right: 1rem;
 }
