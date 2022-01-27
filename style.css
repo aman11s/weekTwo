@@ -20,8 +20,7 @@ body {
 }
 
 header {
-    /* background-color: #e8e9ed; */
-    /* background-color: #202021; */
+    background-color: #202021;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
