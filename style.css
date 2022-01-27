@@ -422,8 +422,43 @@ main {
 
 .radio-inputs label {
     padding: 0.8rem;
+    cursor: pointer;
+}
+
+.radio-inputs label:hover {
+    background-color: var(--hover-bg-color);
 }
 
 .radio-inputs input {
     margin-right: 1rem;
+}
+
+.tab-wrapper {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+.scroll-x {
+    overflow-x: scroll;
+    max-width: 20rem;
+}
+
+.tab {
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    min-width: fit-content;
+}
+
+.tab:hover {
+    background-color: var(--hover-bg-color);
+    border-radius: 5px;
+}
+
+.tab:focus {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
