@@ -42,7 +42,7 @@ main {
 }
 
 .title {
-    margin: 0 2rem;
+    margin: 0 2rem 2rem;
     padding-top: 2rem;
     text-align: center;
 }
@@ -434,6 +434,7 @@ main {
 }
 
 .tab-wrapper {
+    background-color: #fff;
     display: flex;
     margin: 1rem;
     padding: 1.5rem;
@@ -445,6 +446,7 @@ main {
 }
 
 .tab {
+    background-color: #fff;
     padding: 1rem;
     cursor: pointer;
     border: none;
