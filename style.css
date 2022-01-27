@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --icon-color: #716969;
+    --light-gray-color: #f7f7f7;
+    --primary-color: #4867e3;
+}
+
+body {
+    /* background-color: #fff; */
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    width: 70%;
+}
+
+header {
+    /* background-color: #e8e9ed; */
+    /* background-color: #202021; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border-bottom: 2px solid #000; */
+    /* box-shadow: 2px 2px 2px #000; */
+}
+
+.header-link {
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+main {
+    background-color: #e8e9ed;
+}
+
+.title {
+    margin: 0 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.card-section {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    margin: 2rem;
+    width: 25rem;
+}
+
+.shadow {
+    box-shadow: 1px 1px 4px #000;
+}
+
+.top-border-radius {
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+
+.img {
+    max-width: 25rem;
+}
+
+.head:hover {
+    background-color: var(--light-gray-color);
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.card-info {
+    padding: 0.8rem 0.8rem 0.4rem;
+}
+
+.card-text {
+    padding: 0.4rem 0.8rem;
+}
+
+.author {
+    color: #555050;
+    padding-top: 6px;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.8rem;
+}
+
+.link:hover {
+    background-color: #f5f6fa;
+    border-radius: 5px;
+}
+
+.footer .footer-icons {
+    margin-left: auto;
+}
+
+.icon {
+    color: var(--icon-color);
+    font-size: 1.8rem;
+    padding: 0.5rem;
+}
+
+.icon:hover {
+    background-color: #f1f1f1;
+    border-radius: 50%;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-over-media {
+    margin-top: -5rem;
+}
+
+.p-top {
+    margin-top: 1rem;
+}
+
+.text-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.least-order {
+    order: -1;
+}
+
+.img-hover,
+.card-text-hover:hover {
+    background-color: var(--light-gray-color);
+    cursor: pointer;
+}
+
+.flex-head {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.flex-img {
+    border-top-left-radius: 0.4rem;
+    max-width: 10rem;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.chips-display-box {
+    display: flex;
+    background-color: var(--light-gray-color);
+    border-bottom: 1px solid var(--primary-color);
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 2rem;
+    width: 70%;
+}
+
+.chips-input-box {
+    border: none;
+    font-size: 1.2rem;
+    height: 3rem;
+    margin: 1rem 1rem 2rem;
+    text-align: center;
+    width: 15rem;
+}
+
+.chip {
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    color: #fff;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.chip-close {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+    margin-left: 0.8rem;
+    padding: 0 6px;
+}
+
+.drawer {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    margin: 2rem;
+    width: 15rem;
+}
+
+.drawer-title {
+    padding: 1rem 1rem 0;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.actions a {
+    align-items: center;
+    color: #000;
+    display: flex;
+    margin: 0.5rem;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: var(--light-gray-color);
+    border-radius: 5px;
+}
+
+.actions a:focus {
+    background-color: #a8b9ff;
+    border-radius: 5px;
+}
+
+.drawer-icon {
+    color: var(--icon-color);
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.header {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 1rem;
+    width: 70%;
+}
+
+.header-title {
+    margin-left: 2rem;
+}
+
+.header-icon {
+    margin-left: auto;
+}
+
+.header-icon i {
+    padding: 0 0.8rem;
+}
+
+.badge-text {
+    position: relative;
+    margin: 1.5rem;
+}
+
+.badge {
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.small-badge {
+    padding: 4px 8px;
+    top: -15px;
+    right: -20px;
+}
+
+.large-badge {
+    padding: 4px 12px;
+    top: -18px;
+    right: -33px;
+    font-size: 1.4rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.badge-btn {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    position: relative;
+}
+
+.button-left-badge {
+    background-color: #ee1212;
+    top: -14px;
+    left: -14px;
+    padding: 4px 8px;
+}
+
+.toggle-btn {
+    background-color: #fff;
+}
+
+.bx {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    position: relative;
+}
+
+.bx span {
+    font-size: 1rem;
+    background-color: #ee1212;
+    padding: 5px;
+    top: -12px;
+    right: -11px;
+}
+
+.snackbar-wrapper {
+    margin: 1.5rem;
+    background-color: #333333;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.snackbar-wrapper a{ 
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.close {
+    cursor: pointer;
+}
+
+.alert-dialog {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.alert-dialog p {
+    padding: 1rem 0;
+}
+
+.dialog-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
