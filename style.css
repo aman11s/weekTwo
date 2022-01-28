@@ -464,3 +464,24 @@ main {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    html {
+        font-size: 75%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .snackbar-wrapper {
+        margin: 1.5rem 0;
+    }
+}
